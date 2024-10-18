@@ -1,0 +1,17 @@
+print("Список картинок:")
+print("1. Кот в ресторане")
+print("2. Кот в очках")
+
+image = "Кот в ресторане.png" and "Кот в очках.png"
+
+image_number = int(input("Введите номер картинки: "))
+
+if image_number == 1:
+  image = "Кот в ресторане.png"
+  print(image)
+elif image_number == 2:
+  image = "Кот в очках.png"
+  print(image)
+else:
+  print("Некоректный ввод")
+
